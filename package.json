@@ -1,0 +1,17 @@
+{
+  "name": "echoannouncer",
+  "version": "1.0.0",
+  "description": "UI for custom echo arena announcer sounds",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "echoarena"
+  ],
+  "author": "Liamm-",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^20.2.0"
+  }
+}
