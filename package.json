@@ -13,5 +13,8 @@
   "license": "MIT",
   "devDependencies": {
     "electron": "^20.2.0"
+  },
+  "dependencies": {
+    "reconnecting-websocket": "^4.4.0"
   }
 }

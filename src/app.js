@@ -1,19 +1,22 @@
 
 
 //Spark Subscriptions
-/*
+
+
 let spark = new SparkWebsocket();
 
-spark.subscribe("goal", e => {
+spark.subscribe("goal", data => {
     goal();
-}); */
+});
 
-var audio = new Audio();
+var goalAudio = new Audio();
+let volume = .02;
 
 //Methods
 function goal() {
-    audio.src = "./sounds/goal/"+selectedGoal;
-    audio.play();
+    goalAudio.volume = volume;
+    goalAudio.src = "./sounds/goal/"+selectedGoal;
+    goalAudio.play();
 }
 
 //File System Stuff
